@@ -1,0 +1,13 @@
+<h1>Room <%= @room.id %></h1>
+
+<%= link_to "Leave", root_path %>
+
+<p id="notice"><%= notice %></p>
+
+<div class="messages">
+  <div class="messages-inner" id="messages" data-room-id="<%= @room.id %>">
+    <%= render @room.messages %>
+  </div>
+</div>
+
+<%= render 'messages/form' %>

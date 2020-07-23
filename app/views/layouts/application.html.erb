@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Instatalk</title>
+<%= csrf_meta_tags %>
+
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-8">
+      <div class="card text-center mt-4 mb-4">
+        <div class="card-body">
+          Welcome to chat, <b><%= current_user.nickname %></b>!
+        </div>
+      </div>
+
+      <%= yield %>
+    </div>
+  </div>
+</div>
+</body>
+</html>

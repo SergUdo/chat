@@ -1,0 +1,10 @@
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: redis://redistogo:c305f4075338818a78f7bfae141d4bf9@spinyfin.redistogo.com:9784/
+  channel_prefix: instatalk_production

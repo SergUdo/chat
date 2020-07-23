@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<div class="row">
+  <div class="col-md-6">
+    <ul class="mt-4 list-unstyled">
+      <h1>Rooms</h1>
+      <%= render @rooms %>
+    </ul>
+
+    <div class="mt-2">
+      <%= render 'rooms/form', room: @room %>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <ul class="mt-4 list-unstyled">
+      <h1>Online:</h1>
+        <ul class="list-unstyled" id="online">
+          <% @users.each do |u| %>
+            <li>
+            <%= "#{u}" %>
+            </li>
+          <% end %>
+        </ul>
+    </ul>
+  </div>
+</div>

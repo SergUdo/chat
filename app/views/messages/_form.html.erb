@@ -1,0 +1,10 @@
+<div class="mt-2">
+  <%= form_tag do |f| %>
+    <div class="form-group">
+      <div class="input-group">
+        <%= text_field_tag :message_body, '', class: 'form-control',
+          placeholder: 'Enter message' %>
+      </div>
+    </div>
+  <% end %>
+</div>
