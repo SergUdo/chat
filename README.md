@@ -1,6 +1,6 @@
 ## «Chat»
 
-Use `rails 5.1.4` `ruby 2.6.5.`
+Use `rails 6.0.3.2` `ruby 2.6.5.`
 
 ## Launching
 
