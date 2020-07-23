@@ -7,7 +7,7 @@ end
 
 gem 'rails', '~> 6.0'
 gem 'faker'
-gem 'bootstrap', '~> 4.0.0.beta'
+gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'puma'
 gem 'sass-rails'
