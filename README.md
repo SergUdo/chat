@@ -29,3 +29,5 @@ rails db:create&&rails db:migrate
 ```
 localhost:3000
 ```
+
+Or open link: https://chatonrails.herokuapp.com/
